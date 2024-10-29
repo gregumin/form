@@ -1,3 +1,8 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
 input{
     display:block;
 }
@@ -6,18 +11,21 @@ input{
     display: flex;
     padding: 0;
     margin: 0;
+    height: 100vh;
 }
 
 #leftdiv{
     width: 33vw;
     background-color: fuchsia;
     margin: 0;
+    flex-grow: 1
 }
 
 #rightdiv{
     width: 67vw;
     background-color: gray;
     margin: 0;
+    flex-grow: 1
 }
 
 #formmain{
