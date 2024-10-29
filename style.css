@@ -1,0 +1,25 @@
+input{
+    display:block;
+}
+
+#maindiv {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+#leftdiv{
+    width: 33vw;
+    background-color: fuchsia;
+    margin: 0;
+}
+
+#rightdiv{
+    width: 67vw;
+    background-color: gray;
+    margin: 0;
+}
+
+#formmain{
+    display: flex;
+}
