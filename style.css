@@ -1,3 +1,9 @@
+*{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
 body, html{
     margin: 0;
     padding: 0;
@@ -45,13 +51,56 @@ input{
 
 }
 
+#copyrightbox{
+    position: absolute;
+    bottom: 0;
+    width: 33vw;
+}
+
+#copyright{
+    text-align: center;
+    font-size: 0.7em;
+    color: red;
+}
+
 #rightdiv{
     width: 67vw;
-    background-color: gray;
+    background-color: black;
     margin: 0;
-    flex-grow: 1
+    flex-grow: 1;
+    padding: 3em;
 }
+
+#formspace{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 
 #formmain{
     display: flex;
+
+}
+
+input{
+    background-color: darkslategray;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+    width: 15vw;
+    font-size: 0.8em;
+}
+
+label{
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+button{
+    background-color: red;
+    width: 12vw;
+    height: 6vh;
+    padding: 0.5em;
+    border-radius: 1em;
+    font-size: 0.8em;
+    margin-top: 2%;
 }
