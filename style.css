@@ -130,3 +130,12 @@ button{
     font-weight: bold;
     color:red;
 }
+
+#squad{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    width: auto;
+    opacity: 0.5;
+}
