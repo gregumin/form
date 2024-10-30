@@ -1,7 +1,7 @@
 *{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-family: "Rajdhani", Arial, Helvetica, sans-serif;
+    font-size: 1.01em;
     line-height:1.2em;
 }
 
@@ -137,8 +137,12 @@ button{
     position: absolute;
     right: 0;
     bottom: 0;
-    height: 60%;
+    height: 50%;
     width: auto;
     opacity: 0.5;
     pointer-events: none;
+}
+
+#formspace>h1{
+    color:red;
 }
