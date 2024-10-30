@@ -20,7 +20,7 @@
 
 
         <div id="rightdiv">
-            <h1>Home to over 5,000,000 people, you never know who has your back covered in Night City. Or who's aiming right at it. Here's where Trauma Team comes in.</h1>
+            <h1>Home to over 5,000,000 people in the year 2077, you'd never know who has your back covered in Night City. Or who's aiming right at it. Here's where Trauma Team comes in.</h1>
             <h1>Sign up for a coverage plan <em>now</em> and you'll <em>never</em> have to look back again.</h1>
 
             <div id="formspace">
@@ -48,7 +48,7 @@
                         </div>
                         <div>
                         <label for="phone">Phone Number:</label>
-                        <input type="tel" id="phone" name="phone" placeholder="555-8008135" required/>
+                        <input type="tel" id="phone" name="phone" placeholder="555-8008135" pattern="\d{3}-\d{7}" required/>
                         </div>
                         <div>
                         <label for="rePassword">Confirm Password:</label>
@@ -61,7 +61,7 @@
                 </form>
             </div>
             
-            <p>already have an account?</p>
+            <p id="already">Already have an account? <a id="alreadylink" href="https://github.com/gregumin">Log in</a></p>
         </div>
 
     </div>

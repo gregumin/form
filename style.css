@@ -90,6 +90,21 @@ input{
     font-size: 0.8em;
 }
 
+input:invalid{
+    border-color: red;
+    color: red;;
+}
+
+input:valid{
+    border-color: lime;
+}
+
+input:focus{
+    border-color: cyan;
+    color: white;
+}
+
+
 label{
     font-size: 0.8em;
     text-transform: uppercase;
@@ -100,7 +115,17 @@ button{
     width: 12vw;
     height: 6vh;
     padding: 0.5em;
-    border-radius: 1em;
+    border-radius: 0.8em;
     font-size: 0.8em;
     margin-top: 2%;
+}
+
+
+#already{
+    font-size: 0.8em;
+}
+
+#alreadylink{
+    font-weight: bold;
+    color:red;
 }
